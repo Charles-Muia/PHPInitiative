@@ -44,7 +44,7 @@ $Jina1=array("Rick Ross", "The Boss", "Wale");
 //null
 $Hit="Karendi";
 $Hit=null;
-$Hit=1;
+$Hit=78;
 
 //Example with Null
 $Password=12345;
