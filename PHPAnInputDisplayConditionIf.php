@@ -6,7 +6,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>PHP if...else...elseif Statements</title>
 </head>
 <body>
 <?php
@@ -26,6 +26,7 @@ if (empty($Marks)) {  //Checks if there is any user input
 
     echo 'Field Empty: Please Enter Your Marks'; //display the echo if no user input
 
+
 } elseif ($Marks <=39) {   //1 - 39 echos Referred
     echo "Marks Scored: ($Marks%)";
     echo "<br>";
@@ -40,7 +41,7 @@ if (empty($Marks)) {  //Checks if there is any user input
     echo "<br>";
     echo "regards,";
     echo "<br>";
-    echo "Students Welfare & Academics Department";
+    echo "Students Welfare & Academics Department.";
 
 } elseif ($Marks >= 40 and $Marks <= 59) {  // 40 - 59 echos Passed
 
