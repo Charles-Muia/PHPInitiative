@@ -10,11 +10,11 @@
 </head>
 <body>
 
-<form method="post" action="PHPAnInputDisplayConditionIf.php">
+<form method="post" action="PHPAnInputDisplayConditionIf.php"> <!--Action runs the .php file containing the if statement-->
     Please Enter Your Grade:
     <p><input type="text" name="GiveMarks"></p>
-    <input type="submit" value="Click To Submit">
-
+    <input type="submit" value="Click To Submit"> <!--Submits the input-->
+    <button type="Reset"> Clear </button> <!--clears the input field-->
 
 </form>
 
