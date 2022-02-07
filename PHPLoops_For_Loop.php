@@ -22,6 +22,14 @@ for ($Number=40; $Number>=0; $Number-=6) {
 
     echo "$Number <br>";
 }
+
+//For Each Loop
+
+
+
+
+
+
 ?>
 
 </body>
